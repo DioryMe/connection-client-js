@@ -13,15 +13,11 @@ const DIOGRAPH_JSON = 'diograph.json'
 
 class ConnectionClient implements IConnectionClient {
   dataClients: IDataClient[]
-  connections: IConnectionObject[] = []
+  connections: IConnectionObject[]
 
-  constructor(dataClients: IDataClient[]) {
+  constructor(dataClients: IDataClient[], connections: IConnectionObject[]) {
     this.dataClients = dataClients
-  }
-
-  initialiseConnections = (connections: IConnectionObject[] = []): IConnectionClient => {
     this.connections = connections
-    return this
   }
 
   findDataClient = ({ client }: IConnectionObject): IDataClient | undefined => {

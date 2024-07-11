@@ -297,10 +297,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@diory/types@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@diory/types/-/types-0.4.0.tgz#2bf87254fb791b8d5cde487d560aa0081fb0b388"
-  integrity sha512-meOING0ct3b8s9J6Wi1XUFFeLluUUkslmwKzOrwxP6yn1/x1BMZtJsxswaSfovmq0brx/yAXTCxY5V+Bp8SVtQ==
+"@diory/types@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@diory/types/-/types-0.4.2.tgz#ecccd118e7cef7621344001a8f8d9e3fefea1d1d"
+  integrity sha512-OWKrbb1b0Ho3Gk/KzDq992iY0LVRawaLBMj/k/FwDPRGbB45w9YJoVQkAfBHMe4DoDhrgkWFwTl0Rcg2nj5Zow==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
